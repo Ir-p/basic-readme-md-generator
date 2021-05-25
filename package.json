@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ir-p/readme-generator/issues"
   },
-  "homepage": "https://github.com/Ir-p/readme-generator#readme"
+  "homepage": "https://github.com/Ir-p/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.0"
+  }
 }
