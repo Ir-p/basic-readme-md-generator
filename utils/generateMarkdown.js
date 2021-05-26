@@ -1,11 +1,10 @@
-function generateMarkDown (info) {
-    const markdown = `
-    amazing markdown 🌎 
-    # ${info["project-repo"]}
-    
-    `;
-    
-    return markdown;
+function generateMarkDown(info) {
+  const markdown = `
+amazing markdown 🌎 
+# ${info["repoName"]}
+`;
+
+  return markdown;
 }
 
 module.exports = generateMarkDown;
