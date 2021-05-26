@@ -8,8 +8,8 @@ function main() {
     .prompt(questions)
     // generate markdown from answers
     .then(generateMarkdown)
-  // save file
-    .then(console.log)
+    // save file
+    .then(console.log);
 }
 
 // start

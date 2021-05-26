@@ -7,3 +7,5 @@ function generateMarkDown (info) {
     
     return markdown;
 }
+
+module.exports = generateMarkDown;
