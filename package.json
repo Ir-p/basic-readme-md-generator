@@ -7,14 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "testLog": "bin/index.js"
+    "testLog": "index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ir-p/readme-generator.git"
   },
   "keywords": [],
-  "author": "ir.pyak@gmail.com",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ir-p/readme-generator/issues"

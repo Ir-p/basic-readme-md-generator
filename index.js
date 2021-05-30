@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
-const questions = require("../utils/questions");
-const generateMarkdown = require("../utils/generateMarkdown");
-const saveMarkDown = require("../utils/saveMarkDown");
+const questions = require("./utils/questions");
+const generateMarkdown = require("./utils/generateMarkdown");
+const saveMarkDown = require("./utils/saveMarkDown");
 const open = require('open');
 
 async function main() {
