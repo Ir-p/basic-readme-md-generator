@@ -6,7 +6,7 @@ Command-line interface for readme.md
 * clone me, or fork me
 * 🌎 live at: [github pages] (https://ir-p.github.io/readme-generator/)
 
-* Screen shot of the deployed app: ![Screen Shot Of The Deployed App]()
+* Screen shot of the deployed app: ![Screen Shot Of The Deployed App]("./assets/images/screenshot.jpg)
 
 ## Deployment
 * just deploy, no other actions needed
