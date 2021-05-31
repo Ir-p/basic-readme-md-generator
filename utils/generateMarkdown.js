@@ -19,7 +19,7 @@ function generateMarkDown(info) {
   
   * [Questions](#questions)
 
-  * [Contribution](#contribution)
+  * [Contributing](#contributing)
 
   * [Test](#test)
 
@@ -32,9 +32,9 @@ function generateMarkDown(info) {
 
   ${info.usage}
 
-  ## Contribution
+  ## Contributing
 
-  ${info.contribution}
+  ${info.contributing}
 
   ## Test
 

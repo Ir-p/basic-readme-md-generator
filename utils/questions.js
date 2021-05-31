@@ -13,7 +13,7 @@ const questions = [
   },
   {
     type: "input",
-    name: "contribution",
+    name: "contributing",
     message: "Please indicate contributors to the project here.",
   },
   {
