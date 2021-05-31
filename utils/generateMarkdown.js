@@ -19,6 +19,10 @@ function generateMarkDown(info) {
   
   * [Questions](#questions)
 
+  * [Contribution](#contribution)
+
+  * [Test](#test)
+
 
   ## Installation
 
@@ -28,6 +32,13 @@ function generateMarkDown(info) {
 
   ${info.usage}
 
+  ## Contribution
+
+  ${info.contribution}
+
+  ## Test
+
+  ${info.test}
 
   ## Questions
 
