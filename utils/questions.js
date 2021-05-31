@@ -1,3 +1,5 @@
+const inquirer = require("inquirer");
+
 const questions = [
   {
     type: "input",
@@ -28,7 +30,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "What is the name of your lincese?",
-    choices: ["MIT", "APACHE"]
+    choices: ["MIT", new inquirer.Separator(), "APACHE"]
   },
   {
     type: "input",

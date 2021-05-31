@@ -1,8 +1,11 @@
 function generateMarkDown(info) {
  
-  const markDown = `[https://img.shields.io/badge/license-${info.license}-9cf]
+  const markDown = `
   # ${info.title}
- 
+  
+
+  ![license](https://img.shields.io/static/v1?label=license&message=${info.license}&color=blue)
+  
   ## Description
   
   ${info.description}
@@ -10,11 +13,11 @@ function generateMarkDown(info) {
 
   ## Table of Contents
   
-  * [Installation](#Installation)
+  * [Installation](#installation)
 
-  * [Usage](#Usage)
-
-  * [Questions](#Questions)
+  * [Usage](#usage)
+  
+  * [Questions](#questions)
 
 
   ## Installation
@@ -26,7 +29,8 @@ function generateMarkDown(info) {
   ${info.usage}
 
 
-  ##Questions
+  ## Questions
+
   If you have any questions, please email at ${info.email}.
 
   Please follow me on Github ${info.github}.
