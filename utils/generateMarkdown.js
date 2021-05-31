@@ -32,6 +32,10 @@ function generateMarkDown(info) {
 
   ${info.usage}
 
+  ## License
+
+  This application is covered under ${info.license} lincense.
+
   ## Contributing
 
   ${info.contributing}
