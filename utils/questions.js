@@ -13,6 +13,16 @@ const questions = [
   },
   {
     type: "input",
+    name: "contribution",
+    message: "Please indicate contributors to the project here.",
+  },
+  {
+    type: "input",
+    name: "test",
+    message: "Please provide the description of the tests.",
+  },
+  {
+    type: "input",
     name: "title",
     message: "What is the title of your repo?",
   },
