@@ -1,4 +1,4 @@
-# readme-generator
+# basic-readme-md-generator
 This app generates a README.md file by using command-line interface app. 
 
 ## Getting Started
