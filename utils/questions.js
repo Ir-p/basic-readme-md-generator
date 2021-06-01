@@ -3,13 +3,23 @@ const inquirer = require("inquirer");
 const questions = [
   {
     type: "input",
-    name: "name",
-    message: "What is your name?",
+    name: "title",
+    message: "What is the title of your repo?",
   },
   {
     type: "input",
     name: "description",
     message: "Please describe functionality of your app.",
+  },
+  {
+    type: "input",
+    name: "installation",
+    message: "Please porvide installation instructions.",
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "Please provide the description of the app.",
   },
   {
     type: "input",
@@ -20,21 +30,6 @@ const questions = [
     type: "input",
     name: "test",
     message: "Please provide the description of the tests.",
-  },
-  {
-    type: "input",
-    name: "title",
-    message: "What is the title of your repo?",
-  },
-  {
-    type: "input",
-    name: "installation",
-    message: "Please porvide installation instructions.",
-  },
-  {
-    type: "input",
-    name: "usage",
-    message: "Please describe usage of the app.",
   },
   {
     type: "list",

@@ -34,7 +34,7 @@ function generateMarkDown(info) {
 
   ## License
 
-  This application is covered under ${info.license} lincense.
+  This application is covered under the ${info.license} lincense.
 
   ## Contributing
 
