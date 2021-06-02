@@ -8,7 +8,7 @@ This app generates a README.md file by using command-line interface app.
 
 * Screen shot of the deployed app: ![Screen Shot Of The Deployed App](assets/images/screenshot.jpg)
 
-* [Watch the video](assets/video/Recording.mov)
+* [Watch the video](https://drive.google.com/file/d/1BmPv6wk8gzUPG7Tu5ymTOswI28GAmGPG/view?usp=sharing)
 ## Deployment
 * just deploy, no other actions needed
 
