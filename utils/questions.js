@@ -1,5 +1,7 @@
 const inquirer = require("inquirer");
 
+// Question objects contain questions for prompts
+
 const questions = [
   {
     type: "input",

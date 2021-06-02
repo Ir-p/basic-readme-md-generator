@@ -1,3 +1,5 @@
+// Function to generate Readme.md file
+
 function generateMarkDown(info) {
  
   const markDown = `

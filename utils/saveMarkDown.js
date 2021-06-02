@@ -1,5 +1,7 @@
 const fs = require("fs/promises");
 
+// Function to write markdown file
+
 const saveMarkDown = (str) => {
   const fileName = "markDown_" + Date.now() + ".md";
 
