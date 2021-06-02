@@ -11,7 +11,7 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message: "Please describe functionality of your app.",
+    message: "Please provide the description of the app.",
   },
   {
     type: "input",
@@ -21,12 +21,12 @@ const questions = [
   {
     type: "input",
     name: "usage",
-    message: "Please provide the description of the app.",
+    message: "Please describe the usage of the app.",
   },
   {
     type: "input",
     name: "contributing",
-    message: "Please indicate contributors to the project here.",
+    message: "Please indicate if contributing to the project is allowed.",
   },
   {
     type: "input",
@@ -36,7 +36,7 @@ const questions = [
   {
     type: "list",
     name: "license",
-    message: "What is the name of your lincese?",
+    message: "What is the name of the lincese for your project?",
     choices: ["MIT", new inquirer.Separator(), "APACHE"]
   },
   {

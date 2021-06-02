@@ -6,7 +6,7 @@ const open = require('open');
 
 async function main() {
   // ask questions
-  const answers = await inquirer.prompt(questions);
+  const answers = await inquirer.prompt(questions)
   // generate markdown from answers
   const markDown = generateMarkDown(answers);
   // save file
