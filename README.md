@@ -6,7 +6,7 @@ This app generates a README.md file by using command-line interface app.
 * clone me, or fork me
 * 🌎 live at: [github pages] (https://ir-p.github.io/readme-generator/)
 
-* Screen shot of the deployed app: ![Screen Shot Of The Deployed App]("./assets/images/screenshot.jpg)
+* Screen shot of the deployed app: ![Screen Shot Of The Deployed App](assets/screenshot.jpg)
 
 ## Deployment
 * just deploy, no other actions needed
